@@ -8,9 +8,9 @@ Php closing tag autometically implies a semiclon.So last line of a statment do n
 ```
 
 Closing tag is optional and some cases omitting the closing tag is very helpful.
-1.using include or require function
-2.unwanted whitespace will not occur at the end of file
-3.add header any time
+1. using include or require function
+2. unwanted whitespace will not occur at the end of file
+3. add header any time
 
 ```PHP
 <?php echo "omitting closing tag";

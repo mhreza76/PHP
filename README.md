@@ -26,8 +26,8 @@ Closing tag is optional and some cases omitting the closing tag is very helpful.
 #### Four compound types:
 1. array
 2. object
-3. [callable]: https://www.php.net/manual/en/language.types.callable.php
-4. [iterable]: https://www.php.net/manual/en/language.types.iterable.php
+3. [callable] (https://www.php.net/manual/en/language.types.callable.php)
+4. [iterable] (https://www.php.net/manual/en/language.types.iterable.php)
 
 #### two special types:
 1. resource

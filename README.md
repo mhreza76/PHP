@@ -1,4 +1,6 @@
 # Starting with PHP
+
+[PHP Manual](https://www.php.net/manual/en/langref.php) <br/>
 At the end of each statement,we will use a semicolon to seperate each statement.
 Php closing tag autometically implies a semiclon.So last line of a statment do not require a statement.
 ```PHP
@@ -34,3 +36,10 @@ Closing tag is optional and some cases omitting the closing tag is very helpful.
 #### two special types:
 1. resource
 2. NULL
+
+#### NULL:
+The special NULL value represents a variable with no value. NULL is the only possible value of type null.
+A variable is considered to be null if:
+1. it has been assigned the constant NULL.
+2. it has not been set to any value yet.
+3. it has been unset().

@@ -36,6 +36,7 @@ echo rtrim("   right trim   ");
 echo "<br>";
 echo "<pre>";
 
+
 echo "<br>";
 echo "<br>";
 

@@ -20,7 +20,4 @@ if(!$conn){
     die("Sorry, faild to connect:". mysqli_connect_error());
 }
 echo "Connection was successful";
-
-// Create a Database 
-$sql = "CREATE DATABASE "
 ?>

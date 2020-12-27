@@ -18,6 +18,18 @@ $conn = mysqli_connect($serverName,$userName,$password);
 if(!$conn){
     die("Sorry, faild to connect:". mysqli_connect_error());
 }
-echo "Connection was successful";
+echo "Connection was successful <br>";
+
+// Create DB 
+$sql = "CREATE DATABASE baiust";
+$result = mysqli_query($conn, $sql);
+
+// check database creation 
+if($result){
+    echo "The DB created successfully. <br>";
+}
+else{
+    echo "THe DB not created, because of this error: ". mysqli_error($conn);
+}
 
 ?>

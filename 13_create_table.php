@@ -10,6 +10,7 @@ $database = "baiust";
 $conn = mysqli_connect($serverName,$userName,$password, $database);
 
 
+
 // Die if connection was not successful 
 if(!$conn){
     die("Sorry, faild to connect:". mysqli_connect_error());

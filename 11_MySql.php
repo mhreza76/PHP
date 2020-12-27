@@ -5,7 +5,6 @@ Ways to connect a MySQL Database
 2. PDO 
 */
 
-function 
 // Connecting to th Database 
 $serverName = "localhost";
 $userName = "root";
@@ -20,4 +19,5 @@ if(!$conn){
     die("Sorry, faild to connect:". mysqli_connect_error());
 }
 echo "Connection was successful";
+
 ?>

@@ -21,7 +21,7 @@ if(!$conn){
 echo "Connection was successful <br>";
 
 // Create DB 
-$sql = "CREATE DATABASE student";
+$sql = "CREATE DATABASE BAIUST";
 $result = mysqli_query($conn, $sql);
 
 // check database creation 
